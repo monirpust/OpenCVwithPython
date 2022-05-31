@@ -8,7 +8,7 @@ imgResized = cv2.resize(img, (600,200))
 print(imgResized.shape)
 
 #cropped image
-imgCropped = img[0:120, 200:300]
+imgCropped = img[0:150, 0:84]
 print(imgCropped.shape)
 
 cv2.imshow("Original Image", img)
